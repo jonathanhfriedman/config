@@ -1,0 +1,9 @@
+alias py="python"
+alias srca="source activate"
+alias g14="g++ -std=c++14 -Wall"
+
+# Open a Jupyter notebook with all output hidden
+alias jn="jupyter notebook > /dev/null 2>&1 &"
+
+# Kill the first job in the list, which is probably a Jupyter notebook
+kjn() { kill $(jobs -l | tr -s ' ' | cut -d' ' -f2); }
