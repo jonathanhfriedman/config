@@ -1,6 +1,7 @@
 alias py="python"
 alias srca="source activate"
 alias g14="g++ -std=c++14 -Wall"
+alias del=“rmtrash"
 
 # Open a Jupyter notebook with all output hidden
 alias jn="jupyter notebook > /dev/null 2>&1 &"
