@@ -1,5 +1,6 @@
 alias py="python"
 alias srca="source activate"
+alias srcd="source deactivate"
 alias g14="g++ -std=c++14 -Wall"
 alias del=“rmtrash"
 
